@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: #f4f4f0;
+  --ink: #111111;
+  --hazard: #e61919;
+}
+
+html,
+body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+body {
+  font-family: "Archivo", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--hazard);
+  color: var(--paper);
+}
+
+/* registration mark */
+.regmark {
+  position: relative;
+  width: 18px;
+  height: 18px;
+}
+.regmark::before,
+.regmark::after {
+  content: "";
+  position: absolute;
+  background: var(--ink);
+}
+.regmark::before {
+  left: 50%;
+  top: 0;
+  width: 1px;
+  height: 100%;
+}
+.regmark::after {
+  top: 50%;
+  left: 0;
+  height: 1px;
+  width: 100%;
+}
+
+/* barcode-like vertical line cluster */
+.barcode {
+  display: flex;
+  align-items: stretch;
+  gap: 2px;
+  height: 28px;
+}
+.barcode i {
+  display: block;
+  background: var(--ink);
+  width: 1px;
+}
+.barcode i.w2 {
+  width: 3px;
+}
+.barcode i.w3 {
+  width: 5px;
+}
+.barcode i.red {
+  background: var(--hazard);
+}
+
+@keyframes tickpulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.25;
+  }
+}
+.live-dot {
+  animation: tickpulse 1s steps(2, end) infinite;
+}

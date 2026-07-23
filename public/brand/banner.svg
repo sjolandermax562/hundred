@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#F4F4F0"/>
+  <rect x="36" y="36" width="1528" height="828" fill="none" stroke="#111111" stroke-width="1.5"/>
+  <line x1="36" y1="120" x2="1564" y2="120" stroke="#111111" stroke-width="1"/>
+  <text x="70" y="92" font-family="Consolas, monospace" font-size="26" letter-spacing="10" fill="#111111">REV 1.0</text>
+  <rect x="1440" y="72" width="14" height="14" fill="#E61919"/>
+  <text x="800" y="520" text-anchor="middle" font-family="Arial Black, Archivo Black, sans-serif" font-weight="900" font-size="230" fill="#111111" letter-spacing="-8">HUNDRED</text>
+  <rect x="330" y="580" width="940" height="10" fill="#E61919"/>
+  <text x="800" y="680" text-anchor="middle" font-family="Consolas, monospace" font-size="42" letter-spacing="18" fill="#111111">ONE HUNDRED MILLISECONDS</text>
+  <g fill="#111111">
+    <rect x="70" y="790" width="2" height="50"/><rect x="78" y="790" width="6" height="50"/><rect x="90" y="790" width="2" height="50"/><rect x="98" y="790" width="10" height="50"/><rect x="114" y="790" width="2" height="50"/><rect x="122" y="790" width="4" height="50"/><rect x="132" y="790" width="2" height="50"/><rect x="140" y="790" width="8" height="50"/>
+    <rect x="154" y="790" width="3" height="50" fill="#E61919"/>
+  </g>
+  <text x="1530" y="830" text-anchor="end" font-family="Consolas, monospace" font-size="22" letter-spacing="8" fill="#111111">ROBINHOOD CHAIN</text>
+</svg>
