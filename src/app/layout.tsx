@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://hundred-henna.vercel.app"),
   title: "HUNDRED | one hundred milliseconds.",
   description:
     "A live chronograph for Robinhood Chain. The real block height, ticking from the public RPC, measured against the clocks finance used to keep.",
